@@ -13,7 +13,6 @@ for (let i = 0; i < m; i++) {
     res.push(uniqueScores.indexOf(alice[i])+1)
     uniqueScores.splice(uniqueScores.indexOf(alice[i]),1)   
     }else{
-    uniqueScores.sort((a,b) => b-a)
     res.push(uniqueScores.indexOf(alice[i])+1)
 }}
 console.log(res)
